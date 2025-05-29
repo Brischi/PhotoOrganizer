@@ -90,7 +90,7 @@ namespace AppleTransfer.View
             {
                 progressBar1.Invoke(new Action(() => progressBar1.Value = Math.Min(erledigt, gesamt)));
             }
-            else
+            else 
             {
                 progressBar1.Value = Math.Min(erledigt, progressBar1.Maximum);
             }
